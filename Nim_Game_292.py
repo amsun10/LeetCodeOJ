@@ -1,28 +1,28 @@
 
 class Solution(object):
+    def __init__(self):
+        self.a = {1: True,
+                  2: True,
+                  3: True,
+                  4: False,
+                }
+
     def canWinNim(self, n):
-        """
-        :type n: int
-        :rtype: bool
-        """
-        if n == 1 or n == 2 or n == 3:
-            return True
-        elif n == 4:
-            return False
+        if self.a.has_key(n):
+            return self.a[n]
         else:
-            while n != 1:
-                if n - 1 > 3:
-                    n -= 1
-                if n - 2 > 3:
-                    n -= 2
-                if n - 3 > 3:
-                    n -= 3
-                else:
-                    if n - 1 > 3:
-                        return True
-                    else:
-                        return False
-            return False
+            print range(len(self.a.keys())+1, n+1)
+            for i in range(len(self.a.keys()) + 1, n+1):
+                if self.a[i-1] == True:
+                   self. a[i] = False
+
+                elif self.a[i-2] == True:
+                    self.a[i] = False
+
+                elif self.a[i-3] == True:
+                    self.a[i] = False
+
+        return self.a[n]
 
 if __name__ == '__main__':
     solu = Solution()
@@ -33,4 +33,7 @@ if __name__ == '__main__':
     print solu.canWinNim(5)
     print solu.canWinNim(6)
     print solu.canWinNim(7)
-    print solu.canWinNim(1348820612)
+    print solu.canWinNim(8)
+    print solu.canWinNim(9)
+    print solu.canWinNim(10)
+    # print solu.canWinNim(1348820612)
