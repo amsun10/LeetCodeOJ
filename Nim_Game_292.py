@@ -1,7 +1,7 @@
 
 class Solution(object):
     def canWinNim(self, n):
-        return (n % 4) > 0
+        return bool(n % 4)
 
 if __name__ == '__main__':
     solu = Solution()
