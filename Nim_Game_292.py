@@ -16,13 +16,7 @@ class Solution(object):
             return self.a[n]
         else:
             for i in xrange(len(self.a.keys()) + 1, n+1):
-                self.a[i] = False
-                if not self.a[i-1]:
-                    self.a[i] = True
-                elif not self.a[i-2]:
-                    self.a[i] = True
-                elif not self.a[i-3]:
-                    self.a[i] = True
+                self.a[i] = not (self.a[i-1] and self.a[i-2] and self.a[i-3])
                 self.a = {i: self.a[i],
                           i-1: self.a[i-1],
                           i-2: self.a[i-2]}
@@ -42,4 +36,4 @@ if __name__ == '__main__':
     print solu.canWinNim(10)
     print solu.canWinNim(11)
     print "--------------------------"
-    print solu.canWinNim(123556233)
+    print solu.canWinNim(1348820612)
