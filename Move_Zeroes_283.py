@@ -7,19 +7,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: void Do not return anything, modify nums in-place instead.
         """
-        index = 0
-        loop_count = 0
         length = len(nums)
-        while True:
-            if nums[index] == 0:
+        j = 0
+        for i in range(length):
+            if nums[j] == 0:
                 nums.append(0)
-                nums.pop(index)
+                nums.pop(j)
             else:
-                index += 1
-            loop_count += 1
-            if loop_count == length:
-                break
-        print nums
+                j += 1
 
 
 if __name__ == '__main__':
