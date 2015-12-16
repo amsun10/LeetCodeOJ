@@ -1,6 +1,9 @@
 
 class Solution(object):
     def __init__(self):
+        self.a = {}
+
+    def reset_dic(self):
         self.a = {1: True,
                   2: True,
                   3: True,
@@ -8,20 +11,21 @@ class Solution(object):
                   }
 
     def canWinNim(self, n):
+        self.reset_dic()
         if self.a.has_key(n):
             return self.a[n]
         else:
-            for i in range(len(self.a.keys()) + 1, n+1):
+            for i in xrange(len(self.a.keys()) + 1, n+1):
                 self.a[i] = False
                 if not self.a[i-1]:
                     self.a[i] = True
-                    continue
                 elif not self.a[i-2]:
                     self.a[i] = True
-                    continue
                 elif not self.a[i-3]:
                     self.a[i] = True
-                    continue
+                self.a = {i: self.a[i],
+                          i-1: self.a[i-1],
+                          i-2: self.a[i-2]}
         return self.a[n]
 
 if __name__ == '__main__':
@@ -37,4 +41,5 @@ if __name__ == '__main__':
     print solu.canWinNim(9)
     print solu.canWinNim(10)
     print solu.canWinNim(11)
-    print solu.canWinNim(1235562)
+    print "--------------------------"
+    print solu.canWinNim(123556233)
