@@ -5,23 +5,23 @@ class Solution(object):
                   2: True,
                   3: True,
                   4: False,
-                }
+                  }
 
     def canWinNim(self, n):
         if self.a.has_key(n):
             return self.a[n]
         else:
-            print range(len(self.a.keys())+1, n+1)
             for i in range(len(self.a.keys()) + 1, n+1):
-                if self.a[i-1] == True:
-                   self. a[i] = False
-
-                elif self.a[i-2] == True:
-                    self.a[i] = False
-
-                elif self.a[i-3] == True:
-                    self.a[i] = False
-
+                self.a[i] = False
+                if not self.a[i-1]:
+                    self.a[i] = True
+                    continue
+                elif not self.a[i-2]:
+                    self.a[i] = True
+                    continue
+                elif not self.a[i-3]:
+                    self.a[i] = True
+                    continue
         return self.a[n]
 
 if __name__ == '__main__':
@@ -36,4 +36,5 @@ if __name__ == '__main__':
     print solu.canWinNim(8)
     print solu.canWinNim(9)
     print solu.canWinNim(10)
-    # print solu.canWinNim(1348820612)
+    print solu.canWinNim(11)
+    print solu.canWinNim(1235562)
