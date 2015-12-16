@@ -1,26 +1,16 @@
 
 class Solution(object):
-    def __init__(self):
-        self.a = {}
-
-    def reset_dic(self):
-        self.a = {1: True,
-                  2: True,
-                  3: True,
-                  4: False,
-                  }
-
     def canWinNim(self, n):
-        self.reset_dic()
-        if self.a.has_key(n):
-            return self.a[n]
+        if n in [1, 2, 3]:
+            return True
+        if n == 4:
+            return False
         else:
-            for i in xrange(len(self.a.keys()) + 1, n+1):
-                self.a[i] = not (self.a[i-1] and self.a[i-2] and self.a[i-3])
-                self.a = {i: self.a[i],
-                          i-1: self.a[i-1],
-                          i-2: self.a[i-2]}
-        return self.a[n]
+            k = n % 4
+            if k == 0:
+                return False
+            else:
+                return True
 
 if __name__ == '__main__':
     solu = Solution()
