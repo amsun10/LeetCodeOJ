@@ -1,4 +1,6 @@
 __author__ = 'amsun'
+"https://leetcode.com/problems/excel-sheet-column-number/"
+
 class Solution(object):
     def titleToNumber(self, s):
         """
@@ -6,3 +8,4 @@ class Solution(object):
         :rtype: int
         """
         for i in s:
+
