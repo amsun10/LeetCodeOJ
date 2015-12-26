@@ -7,5 +7,15 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        for i in s:
+        base = 26
+        num = 0
+        len_s = len(s)
+        for index, i in enumerate(s):
+            j = (ord(i) - 64)
+            num += j * (base ** (len_s - index - 1))
+            pass
+        return num
 
+if __name__ == '__main__':
+    solu = Solution()
+    print solu.titleToNumber('AA')
