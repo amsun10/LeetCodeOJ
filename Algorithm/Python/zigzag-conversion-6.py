@@ -20,12 +20,42 @@
 # Output: "PINALSIGYAHRPI"
 # Explanation:
 #
-# P     I    N
-# A   L S  I G
-# Y A   H R
-# P     I
-
+# P    I    N
+# A  L S  I G
+# Y A  H R
+# P    I
 #TODO NEED A SOLUTION
+
+
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
+        if numRows == 1:
+            return s
+        if numRows == 2:
+            return ''.join([x for index, x in enumerate(s) if index % 2 == 0]) + \
+                   ''.join([x for index, x in enumerate(s) if index % 1 == 0])
+        str_array = []
+        for i in range(numRows):
+            str_array.append([""] * len(s))
+
+        cur_col = 0
+        index_row = 1
+        middle_row = 0
+        middle_row_limit = numRows - 2
+        for index, char in enumerate(s):
+            str_array[cur_col + index % numRows][index % numRows].append(char)
+            curcol = int(index/numRows)
+            index_row += 1
+            if index % numRows == 0:
+                index = 1
+
+        return str_array[0]
+
+
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.convert("PAYPALISHIRING", 2))
+
+
+
 
