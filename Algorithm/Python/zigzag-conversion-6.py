@@ -20,19 +20,28 @@
 # Output: "PINALSIGYAHRPI"
 # Explanation:
 #
+
+# P   A   H   N
+# A P L S I I G
+# Y   I   R
+
 # P    I    N
 # A  L S  I G
 # Y A  H R
 # P    I
 
 
-# P   A   H   N
-# A P L S I I G
-# Y   I   R
-
-#TODO NEED A SOLUTION
 class Solution:
+    def get_char(self, s, index):
+        try:
+            return s[index]
+        except IndexError:
+            return ""
+
     def convert(self, s: str, numRows: int) -> str:
+        if len(s) <= numRows:
+            return s
+
         if numRows == 1:
             return s
 
@@ -41,42 +50,51 @@ class Solution:
                    ''.join([x for index, x in enumerate(s) if index % numRows == 1])
 
         result = s[0]
-        down_gap = numRows
+        down_gap = (numRows - 1) * 2
         top_gap = 0
         use_top_gap = False
         cur_row = numRows
         cur_index = 0
         while cur_row >= 0:
             if not top_gap:
-                result += s[cur_index + numRows + 1]
-                cur_index += numRows + 1
-            elif not down_gap != 1:
-                result += s[cur_index + numRows + 1]
-                cur_index += numRows + 1
+                result += self.get_char(s, cur_index + down_gap)
+                cur_index += down_gap
+            elif not down_gap:
+                result += self.get_char(s, cur_index + top_gap)
+                cur_index += top_gap
             else:
                 if use_top_gap:
-                    result += s[cur_index + top_gap + 1]
-                    cur_index += top_gap + 1
+                    result += self.get_char(s, cur_index + top_gap)
+                    cur_index += top_gap
                 else:
-                    result += s[cur_index + down_gap]
+                    result += self.get_char(s, cur_index + down_gap)
                     cur_index += down_gap
 
                 use_top_gap = not use_top_gap
 
-            if cur_index + down_gap + 1 > len(s):
+            if use_top_gap:
+                limit = cur_index + top_gap
+            else:
+                limit = cur_index + down_gap
+
+            if limit >= len(s):
                 cur_row -= 1
-                down_gap -= 1
-                top_gap += 1
+                down_gap = (cur_row - 1) * 2
+                top_gap = (numRows - cur_row) * 2
                 use_top_gap = False
-                result += s[numRows-cur_row]
+                result += self.get_char(s, numRows - cur_row)
                 cur_index = numRows - cur_row
 
+            if len(result) == len(s):
+                break
 
-
-
+        return result
 
 
 if __name__ == '__main__':
     solution = Solution()
     # PAHNAPLSIIGYIR
-    print(solution.convert("PAYPALISHIRING", 3))
+    # print(solution.convert("PAYPALISHIRING", 3))
+    # print(solution.convert("A", 3))
+    # print(solution.convert("AB", 1))
+    print(solution.convert("ABCD", 3))
