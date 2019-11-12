@@ -28,7 +28,7 @@ class Solution:
         height = [x - min_height for x in height]
 
         while cur_height <= max_height:
-            temp_volume = self.calculate_volume(cur_height, total_volume, height)
+            temp_volume = self.calculate_volume(cur_height, total_volume, height, min_height)
             if total_volume > temp_volume:
                 break
             else:
@@ -38,10 +38,41 @@ class Solution:
         return total_volume
 
     def calculate_volume(self, cur_height, cur_volume, height):
-        max_height = max(height)
         min_height = min(height)
-        cur_volume += min_height * len(height)
-
-
         return cur_volume
         pass
+
+# class Solution:
+#     def maxArea(self, height: list) -> int:
+#         i = 0
+#         j = len(height) - 1
+#
+#         max_volume = 0
+#         is_right = True
+#
+#         while i != j:
+#             left = height[i]
+#             right = height[j]
+#             cur_volume = min(left, right) * (j - i)
+#             print(cur_volume)
+#
+#             if is_right:
+#                 i += 1
+#             else:
+#                 j -= 1
+#
+#             is_right = not is_right
+#
+#             if cur_volume > max_volume:
+#                 max_volume = cur_volume
+#
+#         return max_volume
+
+
+if __name__ == '__main__':
+    solution = Solution()
+    # print(solution.maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7])) # 49
+    # print(solution.maxArea([2, 3, 10, 5, 7, 8, 9])) # 36
+
+
+
