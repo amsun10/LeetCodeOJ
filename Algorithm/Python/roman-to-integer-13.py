@@ -42,5 +42,44 @@
 
 
 class Solution:
+    def __init__(self):
+        self.roman_to_integer_map = {
+            "M": 1000,
+            "D": 500,
+            "C": 100,
+            "L": 50,
+            "X": 10,
+            "V": 5,
+            "I": 1,
+
+        }
+
+        self.special_map = {
+            "CM": 900,
+            "CD": 400,
+            "XL": 40,
+            "XC": 90,
+            "IV": 4,
+            "IX": 9
+        }
+
     def romanToInt(self, s: str) -> int:
-        pass
+        result = 0
+
+        for key in self.special_map.keys():
+            if key in s:
+                result += self.special_map[key]
+                s = s.replace(key, "", 1)
+
+        for key in self.roman_to_integer_map.keys():
+            while key in s:
+                result += self.roman_to_integer_map[key]
+                s = s.replace(key, "", 1)
+
+        return result
+
+
+if __name__ == '__main__':
+    solution = Solution()
+    print(solution.romanToInt("III"))
+    print(solution.romanToInt("MCMXCIV"))
