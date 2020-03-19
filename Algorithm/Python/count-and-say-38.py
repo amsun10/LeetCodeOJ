@@ -1,31 +1,43 @@
 # https://leetcode.com/problems/count-and-say/
 # TODO:
 
+
 class Solution:
-    base_term : {
-        1 : '1',
-        2 : '11',
-        3 : '21',
-        4 : '1211',
-        5 : '111221',
+    base_term = {
+        1: '1',
+        2: '11',
+        3: '21',
+        4: '1211',
+        5: '111221',
+
     }
 
     def __init__(self):
         for i in range(6, 31):
-            target = "" #self.base_term[i-1]
+            target = self.base_term[i-1]
             result = ""
+            index = 1
+            target_len = len(target)
             while target:
-                if target.startswith("11"):
-                    result += "21"
-                    target = target[2:]
-                    continue
+                if index < target_len:
+                    if target[index] == target[index - 1]:
+                        index += 1
+                    else:
+                        result += "{}{}".format(index, target[index-1])
+                        target = target[index:]
+                        target_len = len(target)
+                        index = 1
 
-                if target.startswith("1"):
-                    result += '1'
-                    target = target[1:]
-                    continue
+                else:
+                    result += "{}{}".format(index, target[index-1])
+                    break
+            self.base_term[i] = result
 
-
-
+            print("{}: {}".format(i, result))
 
     def countAndSay(self, n: int) -> str:
+        return self.base_term[n]
+
+
+if __name__ == '__main__':
+    solution = Solution()
