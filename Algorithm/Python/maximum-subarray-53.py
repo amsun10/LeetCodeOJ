@@ -3,6 +3,19 @@
 
 class Solution:
     def maxSubArray(self, nums: list) -> int:
+        max_sum = nums[0]
+
+        for i in nums[1:]:
+            if max_sum + i < i:
+                max_sum = i
+            else:
+                if i >= 0:
+                    max_sum = max_sum + i
+                else:
+                    while
+
+
+        return max_sum
         pass
 
 
