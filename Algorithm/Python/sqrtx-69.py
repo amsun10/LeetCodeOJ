@@ -3,19 +3,18 @@
 
 class Solution:
     def mySqrt(self, x: int) -> int:
-        if x in [1, 0]:
-            return x
-
-        if x == 2:
+        if x == 1:
             return 1
+        lo, hi = 0, x
+        while hi - lo > 1:
+            mid = (hi + lo) // 2
 
-        sum = int(x/2) + 1
+            if mid * mid > x:
+                hi = int(mid)
+            else:
+                lo = int(mid)
 
-        for i in range(sum + 1):
-            if i * i == x:
-                return i
-            if i * i > x:
-                return i - 1
+        return (hi + lo) // 2
 
 
 if __name__ == '__main__':
