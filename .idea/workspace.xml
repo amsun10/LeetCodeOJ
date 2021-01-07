@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ee3c21-ee24-49f7-8867-728820b6078d" name="Default Changelist" comment="solu">
-      <change afterPath="$PROJECT_DIR$/Algorithm/Python/reverse-words-in-a-string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/__init__.py" afterDir="false" />
+    <list default="true" id="f1ee3c21-ee24-49f7-8867-728820b6078d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithm/Python/lru-cache.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0fba8043-084c-4e9c-983b-4951962f557a" name="Revert &quot;solution for https://leetcode.com/problems/valid-parentheses/&quot;" comment="Revert &quot;solution for https://leetcode.com/problems/valid-parentheses/&quot;&#10;&#10;This reverts commit 2054123d" />
@@ -48,7 +65,7 @@
       <recent name="C:\Users\amsun\PycharmProjects\LeetCodeOJ\Algorithm\Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reverse-words-in-a-string">
+  <component name="RunManager" selected="Python.lru-cache">
     <configuration name="PYTHON37-32bit" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCodeOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,28 +80,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="excel-sheet-column-title-168" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Python/excel-sheet-column-title-168.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,6 +124,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Python/house-robber-198.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lru-cache" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Python/lru-cache.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,22 +200,23 @@
     </configuration>
     <list>
       <item itemvalue="Python.PYTHON37-32bit" />
-      <item itemvalue="Python.excel-sheet-column-title-168" />
       <item itemvalue="Python.factorial-trailing-zeroes-172" />
-      <item itemvalue="Python.reverse-bits-190" />
       <item itemvalue="Python.house-robber-198" />
+      <item itemvalue="Python.reverse-bits-190" />
       <item itemvalue="Python.reverse-words-in-a-string" />
+      <item itemvalue="Python.lru-cache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lru-cache" />
         <item itemvalue="Python.reverse-words-in-a-string" />
-        <item itemvalue="Python.house-robber-198" />
         <item itemvalue="Python.reverse-bits-190" />
+        <item itemvalue="Python.house-robber-198" />
         <item itemvalue="Python.factorial-trailing-zeroes-172" />
-        <item itemvalue="Python.excel-sheet-column-title-168" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -243,7 +261,8 @@
       <workItem from="1587476566002" duration="8133000" />
       <workItem from="1587654762488" duration="2896000" />
       <workItem from="1609939166420" duration="27000" />
-      <workItem from="1610026138936" duration="340000" />
+      <workItem from="1610026138936" duration="748000" />
+      <workItem from="1610027058050" duration="4508000" />
     </task>
     <task id="LOCAL-00001" summary="solution for https://leetcode.com/problems/longest-palindromic-substring/">
       <created>1570632801354</created>
@@ -483,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587657449703</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="solution for https://leetcode.com/problems/reverse-words-in-a-string/">
+      <created>1610026635061</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610026635061</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -496,7 +522,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -525,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solution for https://leetcode.com/problems/remove-element/" />
     <MESSAGE value="solution for # https://leetcode.com/problems/length-of-last-word/" />
     <MESSAGE value="solution for https://leetcode.com/problems/plus-one/" />
     <MESSAGE value="solution for https://leetcode.com/problems/add-binary/" />
@@ -550,85 +575,8 @@
     <MESSAGE value="solution for https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" />
     <MESSAGE value="solution for https://leetcode.com/problems/factorial-trailing-zeroes/" />
     <MESSAGE value="solution for https://leetcode.com/problems/house-robber/" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution for https://leetcode.com/problems/house-robber/" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="657" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584972619819">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="657" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584972619819" />
-    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586443432344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586443432344" />
-    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1587397723117">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1587397723117" />
-    <state x="205" y="224" width="1192" height="701" key="CommitChangelistDialog2" timestamp="1587657445222">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="205" y="224" width="1192" height="701" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587657445222" />
-    <state width="431" height="466" key="DebuggerActiveHint" timestamp="1586354194923">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="431" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586354194923" />
-    <state x="25" y="86" key="DiffContextDialog" timestamp="1586335358118">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="25" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586335358118" />
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom" timestamp="1587657148030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587657148030" />
-    <state width="1877" height="345" key="GridCell.Tab.0.center" timestamp="1587657148030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587657148030" />
-    <state width="1877" height="345" key="GridCell.Tab.0.left" timestamp="1587657148029">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587657148029" />
-    <state width="1877" height="345" key="GridCell.Tab.0.right" timestamp="1587657148030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587657148030" />
-    <state width="1877" height="345" key="GridCell.Tab.1.bottom" timestamp="1587657148030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587657148030" />
-    <state width="1877" height="345" key="GridCell.Tab.1.center" timestamp="1587657148030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587657148030" />
-    <state width="1877" height="345" key="GridCell.Tab.1.left" timestamp="1587657148030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587657148030" />
-    <state width="1877" height="345" key="GridCell.Tab.1.right" timestamp="1587657148030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587657148030" />
-    <state x="711" y="183" key="SettingsEditor" timestamp="1587392118393">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="711" y="183" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587392118393" />
-    <state x="806" y="435" key="VCS.ChangelistChooser" timestamp="1586705682957">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="806" y="435" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586705682957" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587657451209">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587657451209" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585149072122">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585149072122" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585233446578">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585233446578" />
+    <MESSAGE value="solution for https://leetcode.com/problems/reverse-words-in-a-string/" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution for https://leetcode.com/problems/reverse-words-in-a-string/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,6 +695,16 @@
           <line>14</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/Python/lru-cache.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/Python/lru-cache.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -766,30 +724,31 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeOJ$sqrtx_69.coverage" NAME="sqrtx-69 Coverage Results" MODIFIED="1584978814408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$remove_element_27.coverage" NAME="remove-element-27 Coverage Results" MODIFIED="1584371303884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$zigzag_conversion_6.coverage" NAME="zigzag-conversion-6 Coverage Results" MODIFIED="1570807908642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$reverse_bits_190.coverage" NAME="reverse-bits-190 Coverage Results" MODIFIED="1587477654223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$climbing_stairs_70.coverage" NAME="climbing-stairs-70 Coverage Results" MODIFIED="1585151172416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$container_with_most_water_10.coverage" NAME="container-with-most-water-10 Coverage Results" MODIFIED="1583850392296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$best_time_to_buy_and_sell_stock_121.coverage" NAME="best-time-to-buy-and-sell-stock-121 Coverage Results" MODIFIED="1586335911729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$remove_duplicates_from_sorted_array_26.coverage" NAME="remove-duplicates-from-sorted-array-26 Coverage Results" MODIFIED="1584371283124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$valid_palindrome_125.coverage" NAME="valid-palindrome-125 Coverage Results" MODIFIED="1586349425549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$add_binary_67.coverage" NAME="add-binary-67 Coverage Results" MODIFIED="1584977902567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$house_robber_198.coverage" NAME="house-robber-198 Coverage Results" MODIFIED="1610026456688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$excel_sheet_column_title_168.coverage" NAME="excel-sheet-column-title-168 Coverage Results" MODIFIED="1586964768757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$pascals_triangle_ii_119.coverage" NAME="pascals-triangle-ii-119 Coverage Results" MODIFIED="1586187953065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$valid_parentheses_20.coverage" NAME="valid-parentheses-20 Coverage Results" MODIFIED="1584370398322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$longest_palindromic_substring_5.coverage" NAME="longest-palindromic-substring-5 Coverage Results" MODIFIED="1570717243834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$merge_sorted_array_88.coverage" NAME="merge-sorted-array-88 Coverage Results" MODIFIED="1585234497703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$add_binary_67.coverage" NAME="add-binary-67 Coverage Results" MODIFIED="1584977902567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$integer_to_roman_12.coverage" NAME="integer-to-roman-12 Coverage Results" MODIFIED="1584367619675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$plus_one_66.coverage" NAME="plus-one-66 Coverage Results" MODIFIED="1584976365236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$reverse_words_in_a_string.coverage" NAME="reverse-words-in-a-string Coverage Results" MODIFIED="1610026499810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$best_time_to_buy_and_sell_stock_ii_122.coverage" NAME="best-time-to-buy-and-sell-stock-ii-122 Coverage Results" MODIFIED="1586792088420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1570544528592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$pascals_triangle_118.coverage" NAME="pascals-triangle-118 Coverage Results" MODIFIED="1585841816772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$pascals_triangle_ii_119.coverage" NAME="pascals-triangle-ii-119 Coverage Results" MODIFIED="1586187953065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$maximum_subarray_53.coverage" NAME="maximum-subarray-53 Coverage Results" MODIFIED="1585840156150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$two_sum_ii_input_array_is_sorted_167.coverage" NAME="two-sum-ii-input-array-is-sorted-167 Coverage Results" MODIFIED="1586877135173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$reverse_bits_190.coverage" NAME="reverse-bits-190 Coverage Results" MODIFIED="1587477654223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$best_time_to_buy_and_sell_stock_ii_122.coverage" NAME="best-time-to-buy-and-sell-stock-ii-122 Coverage Results" MODIFIED="1586792088420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$palindrome_number_9.coverage" NAME="palindrome-number-9 Coverage Results" MODIFIED="1570807937708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1570544528592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$merge_sorted_array_88.coverage" NAME="merge-sorted-array-88 Coverage Results" MODIFIED="1585234497703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$factorial_trailing_zeroes_172.coverage" NAME="factorial-trailing-zeroes-172 Coverage Results" MODIFIED="1587397684433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$pascals_triangle_118.coverage" NAME="pascals-triangle-118 Coverage Results" MODIFIED="1585841816772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$reverse_words_in_a_string.coverage" NAME="reverse-words-in-a-string Coverage Results" MODIFIED="1610026499810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$palindrome_number_9.coverage" NAME="palindrome-number-9 Coverage Results" MODIFIED="1570807937708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$longest_palindromic_substring_5.coverage" NAME="longest-palindromic-substring-5 Coverage Results" MODIFIED="1570717243834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$house_robber_198.coverage" NAME="house-robber-198 Coverage Results" MODIFIED="1610026456688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$remove_element_27.coverage" NAME="remove-element-27 Coverage Results" MODIFIED="1584371303884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$best_time_to_buy_and_sell_stock_121.coverage" NAME="best-time-to-buy-and-sell-stock-121 Coverage Results" MODIFIED="1586335911729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$plus_one_66.coverage" NAME="plus-one-66 Coverage Results" MODIFIED="1584976365236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$zigzag_conversion_6.coverage" NAME="zigzag-conversion-6 Coverage Results" MODIFIED="1570807908642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$lru_cache.coverage" NAME="lru-cache Coverage Results" MODIFIED="1610031151984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$container_with_most_water_10.coverage" NAME="container-with-most-water-10 Coverage Results" MODIFIED="1583850392296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$remove_duplicates_from_sorted_array_26.coverage" NAME="remove-duplicates-from-sorted-array-26 Coverage Results" MODIFIED="1584371283124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$valid_palindrome_125.coverage" NAME="valid-palindrome-125 Coverage Results" MODIFIED="1586349425549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$valid_parentheses_20.coverage" NAME="valid-parentheses-20 Coverage Results" MODIFIED="1584370398322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
   </component>
 </project>
