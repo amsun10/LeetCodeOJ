@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1ee3c21-ee24-49f7-8867-728820b6078d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/Python/lru-cache.py" afterDir="false" />
+    <list default="true" id="f1ee3c21-ee24-49f7-8867-728820b6078d" name="Default Changelist" comment="solution for https://leetcode.com/problems/ugly-number/">
+      <change afterPath="$PROJECT_DIR$/Algorithm/Python/ugly-number-ii-264.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0fba8043-084c-4e9c-983b-4951962f557a" name="Revert &quot;solution for https://leetcode.com/problems/valid-parentheses/&quot;" comment="Revert &quot;solution for https://leetcode.com/problems/valid-parentheses/&quot;&#10;&#10;This reverts commit 2054123d" />
@@ -58,6 +58,7 @@
     <property name="last_opened_file_path" value="/opt/ActivePython-2.7/bin/python2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
@@ -65,7 +66,7 @@
       <recent name="C:\Users\amsun\PycharmProjects\LeetCodeOJ\Algorithm\Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lru-cache">
+  <component name="RunManager" selected="Python.ugly-number-ii-264">
     <configuration name="PYTHON37-32bit" type="PythonConfigurationType" factoryName="Python">
       <module name="LeetCodeOJ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,50 +81,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="factorial-trailing-zeroes-172" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Python/factorial-trailing-zeroes-172.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="house-robber-198" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="LeetCodeOJ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Python/house-robber-198.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,21 +155,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ugly-number-263" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Python/ugly-number-263.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ugly-number-ii-264" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeOJ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/Python/ugly-number-ii-264.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.PYTHON37-32bit" />
-      <item itemvalue="Python.factorial-trailing-zeroes-172" />
-      <item itemvalue="Python.house-robber-198" />
+      <item itemvalue="Python.lru-cache" />
       <item itemvalue="Python.reverse-bits-190" />
       <item itemvalue="Python.reverse-words-in-a-string" />
-      <item itemvalue="Python.lru-cache" />
+      <item itemvalue="Python.ugly-number-263" />
+      <item itemvalue="Python.ugly-number-ii-264" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ugly-number-ii-264" />
+        <item itemvalue="Python.ugly-number-263" />
         <item itemvalue="Python.lru-cache" />
         <item itemvalue="Python.reverse-words-in-a-string" />
         <item itemvalue="Python.reverse-bits-190" />
-        <item itemvalue="Python.house-robber-198" />
-        <item itemvalue="Python.factorial-trailing-zeroes-172" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +263,9 @@
       <workItem from="1587654762488" duration="2896000" />
       <workItem from="1609939166420" duration="27000" />
       <workItem from="1610026138936" duration="748000" />
-      <workItem from="1610027058050" duration="4508000" />
+      <workItem from="1610027058050" duration="5637000" />
+      <workItem from="1610236587249" duration="318000" />
+      <workItem from="1610237107623" duration="14151000" />
     </task>
     <task id="LOCAL-00001" summary="solution for https://leetcode.com/problems/longest-palindromic-substring/">
       <created>1570632801354</created>
@@ -509,7 +512,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610026635061</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="solution for https://leetcode.com/problems/lru-cache/">
+      <created>1610031886719</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1610031886719</updated>
+    </task>
+    <task id="LOCAL-00037" summary="solution for https://leetcode.com/problems/ugly-number/">
+      <created>1610284090543</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1610284090543</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView">
@@ -551,8 +568,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solution for # https://leetcode.com/problems/length-of-last-word/" />
-    <MESSAGE value="solution for https://leetcode.com/problems/plus-one/" />
     <MESSAGE value="solution for https://leetcode.com/problems/add-binary/" />
     <MESSAGE value="solution for https://leetcode.com/problems/sqrtx/" />
     <MESSAGE value="solution for https://leetcode.com/problems/climbing-stairs/" />
@@ -576,7 +591,9 @@
     <MESSAGE value="solution for https://leetcode.com/problems/factorial-trailing-zeroes/" />
     <MESSAGE value="solution for https://leetcode.com/problems/house-robber/" />
     <MESSAGE value="solution for https://leetcode.com/problems/reverse-words-in-a-string/" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution for https://leetcode.com/problems/reverse-words-in-a-string/" />
+    <MESSAGE value="solution for https://leetcode.com/problems/lru-cache/" />
+    <MESSAGE value="solution for https://leetcode.com/problems/ugly-number/" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution for https://leetcode.com/problems/ugly-number/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -697,13 +714,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Algorithm/Python/lru-cache.py</url>
-          <line>40</line>
+          <line>33</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Algorithm/Python/lru-cache.py</url>
-          <line>48</line>
+          <line>41</line>
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/Python/ugly-number-263.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/Python/ugly-number-263.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/Python/ugly-number-ii-264.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithm/Python/ugly-number-ii-264.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -725,6 +762,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodeOJ$sqrtx_69.coverage" NAME="sqrtx-69 Coverage Results" MODIFIED="1584978814408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$reverse_bits_190.coverage" NAME="reverse-bits-190 Coverage Results" MODIFIED="1587477654223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$ugly_number_263.coverage" NAME="ugly-number-263 Coverage Results" MODIFIED="1610285023234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$climbing_stairs_70.coverage" NAME="climbing-stairs-70 Coverage Results" MODIFIED="1585151172416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$excel_sheet_column_title_168.coverage" NAME="excel-sheet-column-title-168 Coverage Results" MODIFIED="1586964768757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$add_binary_67.coverage" NAME="add-binary-67 Coverage Results" MODIFIED="1584977902567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
@@ -745,8 +783,9 @@
     <SUITE FILE_PATH="coverage/LeetCodeOJ$best_time_to_buy_and_sell_stock_121.coverage" NAME="best-time-to-buy-and-sell-stock-121 Coverage Results" MODIFIED="1586335911729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$plus_one_66.coverage" NAME="plus-one-66 Coverage Results" MODIFIED="1584976365236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$zigzag_conversion_6.coverage" NAME="zigzag-conversion-6 Coverage Results" MODIFIED="1570807908642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
-    <SUITE FILE_PATH="coverage/LeetCodeOJ$lru_cache.coverage" NAME="lru-cache Coverage Results" MODIFIED="1610031151984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$lru_cache.coverage" NAME="lru-cache Coverage Results" MODIFIED="1610282825238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$container_with_most_water_10.coverage" NAME="container-with-most-water-10 Coverage Results" MODIFIED="1583850392296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
+    <SUITE FILE_PATH="coverage/LeetCodeOJ$ugly_number_ii_264.coverage" NAME="ugly-number-ii-264 Coverage Results" MODIFIED="1610295583338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$remove_duplicates_from_sorted_array_26.coverage" NAME="remove-duplicates-from-sorted-array-26 Coverage Results" MODIFIED="1584371283124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$valid_palindrome_125.coverage" NAME="valid-palindrome-125 Coverage Results" MODIFIED="1586349425549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
     <SUITE FILE_PATH="coverage/LeetCodeOJ$valid_parentheses_20.coverage" NAME="valid-parentheses-20 Coverage Results" MODIFIED="1584370398322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm/Python" />
